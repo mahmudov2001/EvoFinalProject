@@ -1,0 +1,263 @@
+
+.services{
+    padding-top: 100px;
+    width: 1519.2px;
+    background-color: #EAf4E8;
+}
+.servicesHead1{
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 70px;
+}
+.services1{
+    display: flex;
+    padding:50px 0 0 280px;
+}
+.services1 p{
+    width: 381px;
+    height: 115px;
+    font-size: 18px;
+    padding: 20px 0 0 300px;
+    line-height: 30px;
+}
+.services img{
+    width: 1399px;
+    margin-inline: 50px;
+    height: 540px;
+    padding-top: 50px;
+}
+.Book{
+    padding-top: 110px;
+    background-color: #EAf4E8;
+}
+.Book1{
+    width: 940px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.Book1 h1{
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+.Book1 h2{
+    width: 793px;
+    font-size: 42px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.Book1 a{
+    display: flex;
+    color: #2B3C2C;
+    padding: 35px 0;
+}
+.Book1 button{
+    cursor: pointer;
+    width: 151px;
+    height: 43px;
+    color: #2B3C2C;
+    background-color: inherit;
+    border-width: 1px;
+}
+.Book1 hr{
+    width: 940px;
+}
+.Quote{
+    margin-top: 100px;
+    display: flex;
+}
+.QuoteLeft{
+    width: 759.6px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.QuoteLeft h2{
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    width: 416px;
+    font-size: 60px;
+}
+.QuoteLeft p{
+    width: 380px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.QuoteRight{
+    padding-left: 250px;
+    width: 759.6px;
+    height: 600px;
+}
+.form{
+    font-size: 18px;
+}
+.form .labelServices{
+    margin-inline: 20px;
+    margin-top:40px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+}
+.form .inputServices{
+    width: 210px;
+    height: 50px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+.form .inputServices:hover{
+    background-color: #EAf4E8;
+}
+.right2 .selectServices{
+    font-size: 15px;
+    width: 210px;
+    height: 50px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+}
+.right2 .selectServices:hover{
+    background-color:#EAf4E8;
+    cursor: pointer;
+}
+#buttonServices{
+    width:460px;
+    /* height: 50px; */
+    margin:50px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #2B3C2C;
+    color: #EAf4E8;
+}
+#buttonServices:hover{
+    background-color: inherit;
+    color:#2B3C2C;
+}
+
+@media(max-width: 320px){
+
+    .services1{
+        width: 300px;
+        flex-direction: column;
+        padding:0;
+        margin-left: 20px;
+    }
+    .servicesHead1{
+        width: 300px;
+        font-size: 32px;  
+    }
+    .servicesHead1 br{
+        display: none;
+    }
+    .services1 p{
+        width: 290px;
+        font-size: 15px;
+        padding:0;
+    }
+    .services{
+        width: 320px;
+        height: 420px;
+        padding: 0;
+        margin: 0;
+    }
+    .services img{
+        width: 320px;
+        height: 220px;
+        padding-top: 40px;
+        margin: 0;
+
+    }
+    .Book{
+        padding-top: 50px;
+    }
+    .Book1{
+        width: 300px;
+        margin-left:20px;
+        padding:0;
+    }
+    .Book1 h1{
+        width: 280px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    hr{
+        display: none;
+    }
+    .Book1 a{
+        flex-direction: column;
+        width: 300px;
+        padding:30px 0;
+    }
+    .Book1 h2{
+        width: 300px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .Book1 button{
+        width: 280px;
+        height: 45px;
+    }
+    .Quote{
+        width: 320px;
+        height: 570px;
+        flex-direction: column;
+        margin: 0
+    }
+    .motherFlowers{
+        position: static;
+        height: 0;
+    }
+    .QuoteLeft{
+        width: 320px;
+        height: 200px;
+        margin-top:30px;
+        padding-bottom: 20px;
+    }
+    .QuoteLeft h2{
+        width: 290px;
+        font-size: 28px;
+    }
+    .QuoteLeft p{
+        width: 290px;
+        padding-left: 10px;
+        font-size: 15px;
+        margin-top:0;
+    }
+    .QuoteRight{
+        width: 290px;
+        height: 350px;
+        padding: 0;
+    }
+    .form .inputServices{
+        width: 90vw;
+        min-width: 130px;
+        height: 37px;
+    }
+    .form .labelServices{
+        margin-inline:12px;
+        margin-top:0px;
+        width: 100% !important;
+    }
+     .right1, .right2{
+        width: 90vw;
+    }
+   
+    .right2 .selectServices{
+        min-width: 130px;
+        width: 90vw;
+        height: 37px;
+    }
+    
+    #buttonServices{
+        margin: 50px 15px;
+        width:280px;
+        /* height:42px; */
+    }
+}

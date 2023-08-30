@@ -1,0 +1,231 @@
+.About {
+    padding-top: 100px;
+    width: 1519.2px;
+    background-color: #EAf4E8;
+}
+
+.AboutHead1 {
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 70px;
+}
+
+.About1 {
+    display: flex;
+    padding: 50px 0 0 280px;
+}
+
+.About1 p {
+    width: 381px;
+    height: 115px;
+    font-size: 18px;
+    padding: 20px 0 0 300px;
+    line-height: 30px;
+}
+
+.About img {
+    width: 1399px;
+    margin-inline: 50px;
+    height: 700px;
+    padding-top: 100px;
+}
+
+.team {
+    padding-top: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team h2 {
+    width: 677px;
+    height: 58.8px;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.team p {
+    padding-top: 10px;
+    width: 401px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.teamUsers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user1 {
+    width: 729px;
+    height: 743px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.user1 img {
+    margin: 0;
+    padding: 0;
+    width: 440px;
+    height: 290px;
+}
+
+.user1 h3 {
+    width: 440px;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+.user1 p {
+    width: 440px;
+    font-size: 18px;
+}
+
+hr {
+    width: 440px;
+    margin: 40px 0;
+}
+
+.user2 {
+    width: 729px;
+    height: 743px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user2 img {
+    margin: 0;
+    padding: 0;
+    width: 440px;
+    height: 290px;
+}
+
+.user2 h3 {
+    width: 440px;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+.user2 p {
+    width: 440px;
+    font-size: 18px;
+}
+
+@media(max-width: 320px) {
+
+    .About {
+        width: 320px;
+        padding: 0;
+    }
+
+    .AboutHead1 {
+        font-size: 32px;
+        padding-left: 20px;
+    }
+
+    .About1 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .About1 p {
+        padding: 0;
+        padding-left: 20px;
+        font-size: 15px;
+        width: 300px;
+        line-height: 23px;
+    }
+
+    .About img {
+        width: 320px;
+        margin: 0;
+        height: 220px;
+        padding: 0;
+    }
+
+    .teamUsers {
+        flex-direction: column;
+    }
+
+    .user1 {
+        width: 320px;
+        height: 480px;
+        align-items: start;
+        background-color: #FFFFFF;
+        padding-top: 50px;
+    }
+
+    .team {
+        background-color: #FFFFFF;
+        padding-top: 30px;
+    }
+
+    .team h2 {
+        width: 300px;
+        font-size: 28px;
+        display: flex;
+        font-weight: 100;
+        justify-content: left;
+        padding-left: 20px;
+    }
+
+    .team p {
+        padding: 0;
+        margin-left: 20px;
+        width: 300px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .teamUsers img {
+        width: 290px;
+        height: 186px;
+        padding-left: 20px;
+    }
+
+    .user1 h3 {
+        width: 300px;
+        font-size: 22px;
+        font-weight: 100;
+        margin-left: 20px;
+    }
+
+    .user1 p {
+        width: 300px;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    hr {
+        width: 295px;
+        margin: 20px 20px;
+    }
+
+    .user2 {
+        width: 320px;
+        padding: 0;
+        height: 480px;
+    }
+
+    .user2 h3 {
+        width: 300px;
+        padding-left: 20px;
+        font-size: 22px;
+    }
+
+    .user2 p {
+        width: 290px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+}
