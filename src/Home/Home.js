@@ -95,18 +95,15 @@ function Home() {
         </div>
         <div className="nth5">
           <img className="img1" src={require("../pictures/rain.png")} alt="" />
-          <img
-            className="img2"
+          <img className="img2"
             src="https://static.wixstatic.com/media/c837a6_56b28448a283458e97700fa692465dcb~mv2.jpg/v1/fill/w_419,h_688,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_56b28448a283458e97700fa692465dcb~mv2.jpg"
             alt=""
           />
-          <img
-            className="img1"
+          <img className="img1"
             src={require("../pictures/master.png")}
             alt=""
           />
-          <img
-            className="img2"
+          <img className="img2"
             src="https://static.wixstatic.com/media/c837a6_8f2791b4e35e405fb987f49a2a8edbe9~mv2.jpg/v1/fill/w_419,h_688,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_8f2791b4e35e405fb987f49a2a8edbe9~mv2.jpg"
             alt=""
           />

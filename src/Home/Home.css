@@ -4,9 +4,13 @@ body{
 }
 .second{
     display: flex;
-    width: 1519px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100vw - 100px);
+    padding-inline: 50px;
     height: 760px;
     background-color:#EAf4E8;
+    padding-bottom: 10px;
 }
 .head1{
     letter-spacing: 15px;
@@ -14,10 +18,10 @@ body{
     font-size: 96px;
     width: 700px;
     line-height: 80px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 .paragraph1{
-    margin-left: 300px;
+    margin-left: 40px;
     padding-top: 350px;
     font-size:18px;
 }
@@ -26,18 +30,18 @@ body{
 }
 .flowers{
     height: 700px;
-    width: 100%;
+    width: calc(100vw - 100px);
     padding-inline: 50px;
     position: absolute;
     top: -250px;
 }
 .motherFlowers{
-    width: 98vw;
-    height:400px;
+    width: 100vw;
+    height:500px;
     position: relative;
 }
 .third{
-    width: 1516px;
+    width: calc(100vw - 0px);
     margin-top: 100px;
     display: flex;
 }
@@ -119,7 +123,7 @@ body{
     color:#2B3C2C;
 }
 .nth4{
-    width: 1469px;
+    width: calc(100vw - 50px);
     padding-left:50px ;
     height: 1200px;
     background-color: #EAf4E8;
@@ -147,7 +151,7 @@ body{
     color: #2B3C2C;
 }
 .nth5{
-    height: 444px;
+    width: calc(100vw - 50px);
     padding-left: 50px;
     display: flex;
     align-items: center;
@@ -156,15 +160,15 @@ body{
 }
 .img1{
     margin-inline: 20px;
-    width:334.8px;
+    width: 23%;
     height: 260px; 
 }
 .img2{
-    width: 334px;
+    width: 23%;
     height:550px;
 }
 .nth6{
-    width: 1516px;
+    width: calc(100vw - 50px);
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
@@ -172,6 +176,7 @@ body{
 .nth6 p{
     width: 410px;
     margin-right: 200px;
+    margin-left: 30px;
     font-size: 18px;
     line-height: 30px;
 }
@@ -182,13 +187,14 @@ body{
 }
 .hrs{
     margin-right:50px;
-    width:1400px;
+    width:96%;
 }
 .information{
-    width: 1516px;
+    width: calc(100vw - 50px);
     display: flex;
     justify-content: space-around;
     margin-top:60px;
+    padding-left: 50px;
 }
 .information p{
     font-size: 30px;
@@ -207,9 +213,9 @@ body{
 }
 .nth7{
     align-items: center;
-    width: 1519px;
+    width: calc(100vw);
     display:flex;
-    height: 360px;
+    /* height: 360px; */
     background-color: #EAf4E8;
     margin-top: 200px;
 }
@@ -282,16 +288,125 @@ blockquote{
     }
 }
 .nth8{
-    width: 1519px;
-    height: 820px;
+    width: calc(100vw - 100px);
+    padding-inline:50px;
+    /* height: 820px; */
     background-color: #EAf4E8;
 }
 .nth8 img{
-    width: 1399px;
+    width: 95%;
     height: 700px;
-    margin-left:50px;
+    
 }
 
+@media (max-width: 1400px){
+    .third{
+        width: calc(100vw - 0px);
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .thirdLeft{
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .thirdLeft h2{
+        margin-left: 20px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        width: 50%;
+        font-size: 60px;
+    }
+    .thirdLeft p{
+        width: 52%;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .thirdRight{
+        width: 100vw; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nth5{
+        width: calc(100vw - 50px);
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 222px;
+    }
+    .img1{
+        margin-inline: 20px;
+        width: 70%;
+        height: 345px; 
+    }
+    .img2{
+        width: 70%;
+        height:750px;
+    }
+    .nth8{
+        width: calc(100vw - 100px);
+        padding-inline:50px;
+        /* height: 820px; */
+        background-color: #EAf4E8;
+    }
+    .nth8 img{
+        width: 95%;
+        height: 700px;  
+    }
+}
+@media (max-width: 900px){
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: calc(100vw + 30px);
+        padding-inline: 50px;
+        height: 760px;
+        background-color:#EAf4E8;
+    }
+    .paragraph1{
+        margin-left: 0px;
+        padding-top: 50px;
+        font-size:18px;
+    }
+    .flowers{
+        height: 700px;
+        width: calc(100% - 50px);
+        padding-inline: 25px;
+        position: absolute;
+        top: -250px;
+    }
+    .motherFlowers{
+        width: calc(100vw + 130px);
+        height:500px;
+        position: relative;
+    }
+    .third{
+        width: calc(100vw - 0px);
+        margin-top: 30px;
+    }
+    .nth4{
+        width: calc(100vw + 80px);
+        padding-left:50px ;
+        height: 1200px;
+        background-color: #EAf4E8;
+    }
+    .nth7{
+        align-items: center;
+        width: calc(100vw + 130px);
+        display:flex;
+        /* height: 360px; */
+        background-color: #EAf4E8;
+        margin-top: 200px;
+    }
+}
 
 @media (max-width:750px){
    
@@ -299,7 +414,7 @@ blockquote{
         display: flex;
         align-items: center;
         padding-top: 50px;
-        width: 100vw;
+        width: calc(100vw + 60px);
         height: 250px;
         flex-direction: column;
     }
@@ -319,28 +434,28 @@ blockquote{
     }
     .flowers{
         min-width: 320px;
-        width: 100vw;
+        width: 100%;
         padding-inline: 0;
         position: static;
         bottom: 0;
+        top: 0;
     }
-    .third{
-        display: flex;
+    .third{   
         justify-content: center;
         width: 320px;
-        flex-direction: column;
     }
     .motherFlowers{
         position: static;
-        height: 0;
+        height: 350px;
+        width: calc(100vw + 160px);
+        
     }
     .motherFlowers img{
         height: 350px;
     }
     .thirdLeft{
-        padding-top:200px;
+        /* padding-top:200px; */
         width: 100vw;
-        height: 200px;
         margin-top:150px;
     }
     .thirdLeft h2{
@@ -391,7 +506,7 @@ blockquote{
         flex-direction: column;
         align-items: center;
         justify-content:center;
-        width: 100vw;
+        width: calc(100vw + 160px);
         min-width: 320px;
         height: auto;
         padding-left: 0;
@@ -407,7 +522,7 @@ blockquote{
     }
     .hrs{
         margin: 0;
-        width:100vw;
+        width:96%;
         display: block;
     }
     .button2{
@@ -433,6 +548,7 @@ blockquote{
         flex-direction: column;
         height: 1220px;
         margin-top: 220px;
+        width: calc(100vw + 90px);
     }
     .nth6{
         width: 100vw;
@@ -467,7 +583,7 @@ blockquote{
     }
     .nth7{
         min-width: 320px;
-        width: 100vw;
+        width: calc(100vw + 160px);
         flex-direction: column;
         margin-top: 0;
     }
@@ -502,9 +618,9 @@ blockquote{
         margin-left: 30px;
     }
     .nth8{
-        width: 100vw;
+        width: calc(100vw + 60px);
         min-width: 300px;
-        height: 300px;
+        padding-bottom : 30px;
     }
     .nth8 img{
         width: 100%;

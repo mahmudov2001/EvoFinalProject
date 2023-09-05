@@ -1,12 +1,16 @@
 .navbar{
-    width: 100vw;;
+    width: calc(100vw - 60px);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color:#EAf4E8;
-    height: 95px;
+    height: 125px;
     align-items: center;
     position:fixed;
     z-index: 10;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 .landScaping{
     color: #2B3C2C;
@@ -15,14 +19,12 @@
     color: #2B3C2C;
 }
 .plantLife{
-    padding-left: 50px;
     font-size: 17px;
 }
 .home{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 650px;
 }
 .firstButton{
     cursor: pointer;
@@ -31,6 +33,7 @@
     background-color: #2B3C2C;
     color: aliceblue;
     font-size: 18px;
+    
 }
 .firstButton:hover{
     background-color: inherit;
@@ -45,9 +48,13 @@
     width: 20px;
     height: 20px;
 }
-
-
-@media(max-width:750px){
+@media (max-width:900px){
+    .navbar{
+        position:static;
+        width: calc(100vw + 70px);
+    }
+}
+@media (max-width:750px){
     .plantLife{
         display: flex;
         justify-content: center;
@@ -60,7 +67,7 @@
     .navbar{
         flex-direction: column;
         position:static;
-        width:100vw;
+        width: calc(100vw + 100px);
     }
     .alar{
         display: none;
@@ -74,6 +81,7 @@
         margin-top: 35px;
         width: 80%;
         height: 42px;
+        margin-right: 20px;
     }
 }
 
