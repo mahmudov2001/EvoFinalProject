@@ -38,88 +38,7 @@
     height:500px;
     position: relative;
 }
-.third{
-    width: calc(100vw - 0px);
-    margin-top: 100px;
-    display: flex;
-}
-.thirdLeft{
-    width: 759.6px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.thirdLeft h2{
-    margin-left: 20px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    width: 416px;
-    font-size: 60px;
-}
-.thirdLeft p{
-    width: 380px;
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 30px;
-}
-.thirdRight{
-    width: 759.6px;
-}
-.form{
-    font-size: 18px;
-}
-.form .labelHome{
-    margin-inline: 20px;
-    margin-top:40px;
-    width: 210px;
-    display: flex;
-    flex-direction: column;
-}
-.container{
-    display: flex;
-}
-.form .inputHome{
-    width: 210px;
-    height: 50px;
-    border-top:none;
-    border-left:none;
-    border-right:none;
-}
-.form .inputHome:hover{
-    background-color: #EAf4E8;
-}
-.right1, .right2 {
-    width: 30vw;
-    min-width: 210px;
-}
 
-.right2 .selectHome{
-    font-size: 15px;
-   
-    height: 50px;
-    border-top:none;
-    border-left: none;
-    border-right: none;
-    border-width: 2px;
-}
-.right2 .selectHome:hover{
-    background-color:#EAf4E8;
-    cursor: pointer;
-}
-#buttonHome{
-    width:570px;
-    margin:50px 20px;
-    cursor: pointer;
-    font-size: 18px;
-    background-color: #2B3C2C;
-    color: #EAf4E8;
-    padding-block: 7px;
-}
-#buttonHome:hover{
-    background-color: inherit;
-    color:#2B3C2C;
-}
 .nth4{
     width: calc(100vw - 50px);
     padding-left:50px ;
@@ -303,38 +222,7 @@ blockquote{
         padding-top: 300px;
         font-size:18px;
     }
-    .third{
-        width: calc(100vw - 0px);
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-    .thirdLeft{
-        width: 100vw;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .thirdLeft h2{
-        margin-left: 20px;
-        letter-spacing: 1px;
-        font-weight: 100;
-        width: 50%;
-        font-size: 60px;
-    }
-    .thirdLeft p{
-        width: 52%;
-        font-size: 18px;
-        line-height: 30px;
-        margin-top: 30px;
-    }
-    .thirdRight{
-        width: 100vw; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
     .nth5{
         width: calc(100vw - 50px);
         padding-left: 50px;
@@ -396,10 +284,7 @@ blockquote{
         height:500px;
         position: relative;
     }
-    .third{
-        width: calc(100vw - 0px);
-        margin-top: 30px;
-    }
+   
     .nth4{
         width: calc(100vw + 80px);
         padding-left:50px ;
@@ -463,10 +348,7 @@ blockquote{
         bottom: 0;
         top: 0;
     }
-    .third{   
-        justify-content: center;
-        width: 320px;
-    }
+    
     .motherFlowers{
         position: static;
         height: 350px;
@@ -476,54 +358,7 @@ blockquote{
     .motherFlowers img{
         height: 350px;
     }
-    .thirdLeft{
-        /* padding-top:200px; */
-        width: 100vw;
-        margin-top:150px;
-    }
-    .thirdLeft h2{
-        width:50vw;
-        font-size: 28px;
-    }
-    .thirdLeft p{
-        margin: 0;
-        width: 55vw;
-        padding-left: 10px;
-        font-size: 15px;
-        margin-top: 10px;
-    }
-    .thirdRight{
-        min-width: 290px;
-        width: 100vw;
-    }
-    .form .container{
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-    }
-    .form .inputHome{
-        min-width: 130px;
-        height: 37px;
-        width: 90vw;
-    }
-    .form .labelHome{
-        margin-inline:12px;
-        margin-top:0px;
-        width: 100% !important;
-    }
-
-    .right2 .selectHome{
-        min-width: 130px;
-        width: 90vw;
-        height: 37px;
-    }
-    #buttonHome{
-        margin: 50px 15px;
-        width: calc(100vw - 30px);
-        min-width: 280px;
-        /* height:42px; */
-        padding-block: 8px;
-    }
+    
     .nth4{
         display: flex;
         flex-direction: column;

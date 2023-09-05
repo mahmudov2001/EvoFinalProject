@@ -1,7 +1,7 @@
 import "./Home.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-
+import GetQuote from "../GetQuote/GetQuote"
 function Home() {
   return (
     <>
@@ -24,7 +24,7 @@ function Home() {
             src={require("../pictures/flowers.png")}
             alt=""
           /></div>
-        <div id="contact" className="third">
+        {/* <div id="contact" className="third">
           <div className="thirdLeft">
             <h2>Get a Free Quote</h2>
             <p>
@@ -80,7 +80,8 @@ function Home() {
             </form>
             <button id="buttonHome">Submit</button>
           </div>
-        </div>
+        </div> */}
+        <GetQuote />
         <div className="nth4">
           <h2>Our Services</h2>
           <p>Lawn Care & Mowing</p>
