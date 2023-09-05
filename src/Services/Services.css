@@ -7,7 +7,7 @@
 .servicesHead1{
     font-size: 72px;
     font-weight: 100;
-    line-height: 70px;
+    line-height: 60px;
 }
 .services1{
     display: flex;
@@ -19,7 +19,7 @@
     height: 115px;
     font-size: 18px;
     padding: 20px 0 0 10px;
-    line-height: 30px;
+    line-height: 25px;
 }
 .services img{
     width: calc(100vw - 100px);
@@ -140,7 +140,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* height: 420px; */
         padding: 0;
         margin: 0;
     }

@@ -29,7 +29,7 @@ function Home() {
           <h2>Our Services</h2>
           <p>Lawn Care & Mowing</p>
           <hr className="hrs" style={{ borderWidth: 2 }} />
-          <p>Landscape Desig</p>
+          <p>Landscape Design</p>
           <hr className="hrs" style={{ borderWidth: 2 }} />
           <p>Garden Planning</p>
           <hr className="hrs" style={{ borderWidth: 2 }} />

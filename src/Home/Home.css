@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
-#root
+
+
 .second{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: calc(100vw - 100px);
     padding-inline: 50px;
-    height: 760px;
     background-color:#EAf4E8;
     padding-bottom: 10px;
 }
@@ -16,12 +16,13 @@
     font-size: 96px;
     width: 700px;
     line-height: 80px;
-    /* padding-left: 50px; */
+    animation: appearFromCenter 2s ease-in-out;
 }
 .paragraph1{
     margin-left: 40px;
     padding-top: 350px;
     font-size:18px;
+    animation: appearFromCenter 2s ease-in-out;
 }
 .paragraph1 a{
     text-decoration:underline;
@@ -31,11 +32,11 @@
     width: calc(100vw - 100px);
     padding-inline: 50px;
     position: absolute;
-    top: -250px;
+    top: -50px;
 }
 .motherFlowers{
     width: 100vw;
-    height:500px;
+    height:700px;
     position: relative;
 }
 
@@ -44,6 +45,7 @@
     padding-left:50px ;
     height: 1200px;
     background-color: #EAf4E8;
+    animation: appearFromCenter 5s ease-in-out;
 }
 .nth4 h2{
     font-size: 30px;
@@ -89,6 +91,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
+    animation: appearFromCenter 8s ease-in-out;
 }
 .nth6 p{
     width: 410px;
@@ -112,6 +115,7 @@
     justify-content: space-around;
     margin-top:60px;
     padding-left: 50px;
+    animation: appearFromCenter 8s ease-in-out;
 }
 .information p{
     font-size: 30px;
@@ -132,9 +136,9 @@
     align-items: center;
     width: calc(100vw);
     display:flex;
-    /* height: 360px; */
     background-color: #EAf4E8;
     margin-top: 200px;
+    animation: appearFromCenter 10s ease-in-out;
 }
 .nth7left{
     width: 759.6px;
@@ -207,7 +211,6 @@ blockquote{
 .nth8{
     width: calc(100vw - 100px);
     padding-inline:50px;
-    /* height: 820px; */
     background-color: #EAf4E8;
 }
 .nth8 img{
@@ -249,7 +252,6 @@ blockquote{
     .nth8{
         width: calc(100vw - 100px);
         padding-inline:50px;
-        /* height: 820px; */
         background-color: #EAf4E8;
     }
     .nth8 img{
@@ -299,14 +301,12 @@ blockquote{
         align-items: center;
         width: calc(100vw + 130px);
         display:flex;
-        /* height: 360px; */
         background-color: #EAf4E8;
         margin-top: 200px;
     }
     .nth8{
         width: calc(100vw + 30px);
         padding-inline:50px;
-        /* height: 820px; */
         background-color: #EAf4E8;
     }
     .nth8 img{
@@ -507,27 +507,3 @@ blockquote{
         }
 }
 }
-
-/* @media(max-width:750px){
-    .second{
-        width:100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .head1{
-        margin-top:50px;
-        font-size: 40px;
-        width: 400px;
-        letter-spacing: 2px;
-        line-height: 50px;
-    }
-    .paragraph1{
-        width:400px;
-        font-size: 25px;
-        margin-left: 20px;
-        padding-top: 20px;
-    }
-    br{
-        display:none;
-    }
-} */

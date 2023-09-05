@@ -1,10 +1,10 @@
 .navbar{
-    width: calc(100vw - 60px);
+    width: calc(100vw - 75px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color:#EAf4E8;
-    height: 125px;
+    height: 80px;
     align-items: center;
     position:fixed;
     z-index: 10;
@@ -14,6 +14,7 @@
 }
 .landScaping{
     color: #2B3C2C;
+    animation: appearFromCenter 2s ease-in-out;
 }
 .a1{
     color: #2B3C2C;
@@ -84,29 +85,3 @@
         margin-right: 20px;
     }
 }
-
-/* @media(max-width: 320px){
-    .plantLife{
-        padding: 0;
-        margin-right:105px;
-        padding-top: 20px;
-    }
-    .navbar{
-        flex-direction: column;
-        position:static;
-        width: 320px;
-        height: 150px;
-    }
-    .alar{
-        display: none;
-    }
-    .home{
-        padding-left:10px;
-        width: 285px;
-    }
-    .firstButton{
-        margin-top: 35px;
-        width: 280px;
-        height: 42px;
-    }
-} */
