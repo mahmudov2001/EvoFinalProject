@@ -1,33 +1,35 @@
-.About {
+.about {
     padding-top: 100px;
-    width: 1519.2px;
+    width: 100vw;
     background-color: #EAf4E8;
 }
 
-.AboutHead1 {
+.aboutHead1 {
     font-size: 72px;
     font-weight: 100;
     line-height: 70px;
 }
 
-.About1 {
+.about1 {
     display: flex;
-    padding: 50px 0 0 280px;
+    justify-content: space-between;
+    padding:50px 50px 0 ;
+    animation: appearFromCenter 1s ease-in-out;
 }
 
-.About1 p {
+.about1 p {
     width: 381px;
     height: 115px;
     font-size: 18px;
-    padding: 20px 0 0 300px;
+    padding: 20px 0 0 10px;
     line-height: 30px;
 }
 
-.About img {
-    width: 1399px;
+.about img {
+    width: calc(100vw - 100px);
     margin-inline: 50px;
-    height: 700px;
-    padding-top: 100px;
+    height: 540px;
+    padding-top: 50px;
 }
 
 .team {
@@ -59,44 +61,46 @@
 .teamUsers {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .user1 {
-    width: 729px;
-    height: 743px;
+    width: 700px;
+    margin-right: 70px;
+    /* height: 743px; */
     padding-top: 70px;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .user1 img {
     margin: 0;
     padding: 0;
-    width: 440px;
+    width: 100%;
     height: 290px;
 }
 
 .user1 h3 {
-    width: 440px;
+    width: 100%;
     font-size: 30px;
     font-weight: 100;
     padding: 15px 0;
 }
 
 .user1 p {
-    width: 440px;
+    width: 100%;
     font-size: 18px;
 }
 
 hr {
-    width: 440px;
+    width: 99%;
     margin: 40px 0;
 }
 
 .user2 {
-    width: 729px;
-    height: 743px;
+    width: 700px;
+    /* height: 743px; */
     padding-top: 70px;
     display: flex;
     flex-direction: column;
@@ -105,40 +109,172 @@ hr {
 .user2 img {
     margin: 0;
     padding: 0;
-    width: 440px;
+    width: 100%;
     height: 290px;
 }
 
 .user2 h3 {
-    width: 440px;
+    width: 100%;
     font-size: 30px;
     font-weight: 100;
     padding: 15px 0;
 }
 
 .user2 p {
-    width: 440px;
+    width: 100%;
     font-size: 18px;
 }
-
-@media(max-width: 320px) {
-
-    .About {
-        width: 320px;
+@media(max-width: 900px) {
+    .about {
+        padding-top: 100px;
+        width: calc(100vw + 130px);
+        background-color: #EAf4E8;
+    }
+    
+    .aboutHead1 {
+        font-size: 72px;
+        font-weight: 100;
+        line-height: 70px;
+    }
+    
+    .about1 {
+        display: flex;
+        justify-content: space-between;
+        padding:50px 50px 0 ;
+    }
+    
+    .about1 p {
+        width: 381px;
+        height: 115px;
+        font-size: 18px;
+        padding: 20px 0 0 10px;
+        line-height: 30px;
+    }
+    
+    .about img {
+        width: calc(100vw + 30px);
+        margin-inline: 50px;
+        height: 540px;
+        padding-top: 50px;
+    }
+    .team {
+        padding-top: 120px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .team h2 {
+        width: 677px;
+        height: 58.8px;
+        font-size: 42px;
+        display: flex;
+        justify-content: center;
+        font-weight: 100;
+    }
+    
+    .team p {
+        padding-top: 10px;
+        width: 401px;
+        height: 57px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .teamUsers {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 100px;
+    }
+    
+    .user1 {
+        min-width: 375px;
+        width: 45vw;
+        margin-right: 70px;
+        /* height: 743px; */
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .user1 img {
+        margin: 0;
         padding: 0;
+        width: 100%;
+        height: 290px;
+    }
+    
+    .user1 h3 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 100;
+        padding: 15px 0;
+    }
+    
+    .user1 p {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    hr {
+        width: 99%;
+        margin: 40px 0;
+    }
+    
+    .user2 {
+        min-width: 375px;
+        width: 45vw;
+        /* height: 743px; */
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .user2 img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 290px;
+    }
+    
+    .user2 h3 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 100;
+        padding: 15px 0;
+    }
+    
+    .user2 p {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+@media(max-width: 750px) {
+
+    .about {
+        min-width: 320px;
+        width: calc(100vw + 160px);
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .AboutHead1 {
+    .aboutHead1 {
         font-size: 32px;
         padding-left: 20px;
     }
 
-    .About1 {
+    .about1 {
         flex-direction: column;
+        align-items: center;
         padding: 0;
     }
 
-    .About1 p {
+    .about1 p {
         padding: 0;
         padding-left: 20px;
         font-size: 15px;
@@ -146,27 +282,31 @@ hr {
         line-height: 23px;
     }
 
-    .About img {
-        width: 320px;
+    .about img {
+        min-width: 320px;
+        width: 75%;
         margin: 0;
-        height: 220px;
+        height: 320px;
         padding: 0;
     }
 
     .teamUsers {
         flex-direction: column;
+        min-width: 320px;
+        width: 100%;
+        align-items: center;
     }
 
     .user1 {
-        width: 320px;
+        min-width: 320px;
+        width: 100%;
         height: 480px;
-        align-items: start;
-        background-color: #FFFFFF;
+        align-items: center;
         padding-top: 50px;
+        margin-right: 0;
     }
 
     .team {
-        background-color: #FFFFFF;
         padding-top: 30px;
     }
 
@@ -176,12 +316,10 @@ hr {
         display: flex;
         font-weight: 100;
         justify-content: left;
-        padding-left: 20px;
     }
 
     .team p {
         padding: 0;
-        margin-left: 20px;
         width: 300px;
         font-size: 15px;
         line-height: 20px;
@@ -212,9 +350,11 @@ hr {
     }
 
     .user2 {
-        width: 320px;
+        min-width: 320px;
+        width: 100%;
         padding: 0;
         height: 480px;
+        align-items: center;
     }
 
     .user2 h3 {

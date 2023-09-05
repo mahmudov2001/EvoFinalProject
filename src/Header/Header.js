@@ -26,7 +26,6 @@ function Header() {
             <p>Contact</p>
           </a>
         </div>
-        {/* <Link to={'/'}  className="alar">Contact</Link> */}
         <a href="https://localhost:3000"  className="alar">
           <img className="user" src={require("../pictures/user.png")} alt="" />
         </a>
