@@ -1,6 +1,7 @@
 import "./Services.css";
 import Header from "../Header/Header";
 import Footer from '../Footer/Footer';
+import GetQuote from "../GetQuote/GetQuote";
 
 function Services() {
   return (
@@ -19,8 +20,8 @@ function Services() {
         </div>
         <img src={require("../pictures/servicesPng1.png")} alt="" />
       </div>
-      <div className="Book">
-        <div className="Book1">
+      <div className="book">
+        <div className="book1">
           <h1>Book a Service</h1>
           <hr />
           <a href={"https://fb.com"}>
@@ -49,7 +50,7 @@ function Services() {
           <hr color="#2B3C2C" />
         </div>
       </div>
-      <div id="contact" className="Quote">
+      {/* <div id="contact" className="Quote">
         <div className="QuoteLeft">
           <h2>Get a Free Quote</h2>
           <p>
@@ -105,7 +106,8 @@ function Services() {
           </form>
           <button id="buttonServices">Submit</button>
         </div>
-      </div>
+      </div> */}
+      <GetQuote />
       <Footer />
     </>
   );

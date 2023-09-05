@@ -1,7 +1,15 @@
+import { useRef } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Header() {
+  const ref = useRef(null);
+  const navigate = useNavigate();
+  const handleClick = () => {
+    if (ref?.current) {
+        navigate('/#footerAnchor');
+    }
+}
   return (
     <nav className="navbar">
       <div className="plantLife">
@@ -13,7 +21,12 @@ function Header() {
         <Link to={'/'} className="alar">Home</Link>
         <Link to={'/services'}  className="alar">Services</Link>
         <Link to={'/about'}  className="alar">About</Link>
-        <Link to={'/'}  className="alar">Contact</Link>
+        <div  onClick={handleClick}>
+          <a  className="alar" ref={ref} href="/#footerAnchor">
+            <p>Contact</p>
+          </a>
+        </div>
+        {/* <Link to={'/'}  className="alar">Contact</Link> */}
         <a href="https://localhost:3000"  className="alar">
           <img className="user" src={require("../pictures/user.png")} alt="" />
         </a>

@@ -2,7 +2,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="nth9">
+    <div className="nth9" id="footerAnchor">
       
         <div className="nth9left-flex">
           <p className="nth9LeftP1">Get In Touch with Plantlife</p>
