@@ -300,6 +300,11 @@ blockquote{
 }
 
 @media (max-width: 1400px){
+    .paragraph1{
+        margin-left: 0px;
+        padding-top: 300px;
+        font-size:18px;
+    }
     .third{
         width: calc(100vw - 0px);
         margin-top: 50px;
@@ -344,11 +349,16 @@ blockquote{
     .img1{
         margin-inline: 20px;
         width: 70%;
-        height: 345px; 
+        height: 450px;
+        margin-bottom: 10px;
     }
     .img2{
         width: 70%;
         height:750px;
+        margin-bottom: 10px;
+    }
+    .information{
+        margin-bottom: 20px;
     }
     .nth8{
         width: calc(100vw - 100px);
@@ -398,6 +408,10 @@ blockquote{
         height: 1200px;
         background-color: #EAf4E8;
     }
+    .img2{
+
+        height:600px;
+    }
     .nth7{
         align-items: center;
         width: calc(100vw + 130px);
@@ -445,6 +459,7 @@ blockquote{
     .flowers{
         min-width: 320px;
         width: 100%;
+        height: 500px;
         padding-inline: 0;
         position: static;
         bottom: 0;
